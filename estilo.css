@@ -1,0 +1,61 @@
+.menu {
+    background-color: #5F5F5F;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.menu a{
+    float: left;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: #dddddd;
+    color: black;
+}
+.menu a.ativo{
+    background-color: #4CAF50;
+    color: white;
+}
+.form{
+    background-color: #0b6fa4;
+    color: #F1F1F1;
+}    
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+
+}
+.form-group label{
+    flex: none;
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.form-group label.right-inline{
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+}
+.form-group .input-control{
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 4px;
+    flex: 1 1 auto;
+}
+button{
+    color: #0b6fa4;
+    background-color: #98cae6;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
