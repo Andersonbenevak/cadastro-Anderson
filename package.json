@@ -1,12 +1,19 @@
 {
   "name": "cadastro",
   "version": "1.0.0",
-  "description": "Cadastro de clientes",
-  "main": "index.html",
+  "description": "",
+  "main": "cliente.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anderson",
-  "license": "MIT "
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andersonbenevak/cadastro-Anderson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andersonbenevak/cadastro-Anderson/issues"
+  },
+  "homepage": "https://github.com/Andersonbenevak/cadastro-Anderson#readme"
 }
-
